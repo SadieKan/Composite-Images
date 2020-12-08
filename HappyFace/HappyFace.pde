@@ -29,6 +29,11 @@ noseX2 = width*9/20;
 noseY2 = height*6/10;
 noseX3 = width*11/20;
 noseY3 = noseY2;
+mouthX1 = leftEyeX;
+mouthY1 = height*3/4;
+mouthX2 = rightEyeX;
+mouthY2 = mouthY1;
+mouthThick = 25;
 //
 //the Face
 rect(faceSquareX, faceSquareY, faceSquareSide, faceSquareSide);
