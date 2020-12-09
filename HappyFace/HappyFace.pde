@@ -1,10 +1,13 @@
 //Global Variables
-float shortSide;
+//float shortSide;
 float faceSquareX, faceSquareY, faceSquareSide;
 float faceX, faceY, faceDiameter;
 float leftEyeX, leftEyeY, rightEyeX, rightEyeY, eyeDiameter;
 float noseX1, noseY1, noseX2, noseY2, noseX3, noseY3;
 float mouthX1, mouthY1, mouthX2, mouthY2, mouthThick;
+color red = #F01313, white = #FFFFFF;
+color measlesColor = red; 
+float measlesX, measlesY, measlesDiameter;
 //
 //Display Geometry
 fullScreen(); //displayWidth & displayHeight //General Geometry: landscape, potrait, or square
@@ -34,6 +37,9 @@ mouthY1 = height*3/4;
 mouthX2 = rightEyeX;
 mouthY2 = mouthY1;
 mouthThick = 25;
+measlesX = random(width);
+measlesY = random(height);
+measlesDiameter = random(height*1/25, height*1/10);
 //
 //the Face
 rect(faceSquareX, faceSquareY, faceSquareSide, faceSquareSide);
@@ -48,7 +54,10 @@ triangle(noseX1, noseY1, noseX2, noseY2, noseX3, noseY3);
 //strokeCap; //Default ROUND
 strokeWeight(mouthThick);
 line(mouthX1, mouthY1, mouthX2, mouthY2);
+strokeWeight(1.5);
 //
 //The Measles
-//ellipse(measlesX, measlesY, measlesDiameter, measlesDiameter);
+fill(measlesColor);
+ellipse(measlesX, measlesY, measlesDiameter, measlesDiameter);
+fill(white);
 //
