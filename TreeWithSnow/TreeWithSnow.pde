@@ -52,9 +52,5 @@ triangle(leaf2X1, leaf2Y1, leaf2X2, leaf2Y2, leaf2X3, leaf2Y3);
 triangle(leaf3X1, leaf3Y1, leaf3X2, leaf3Y2, leaf3X3, leaf3Y3);
 fill (white);
 //
-//Star
-
-//
 //Snow
 ellipse(snowX, snowY, snowDiameter, snowDiameter);
-//
