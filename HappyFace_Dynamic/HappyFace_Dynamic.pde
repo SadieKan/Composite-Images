@@ -18,6 +18,18 @@ void setup() {
   //Initial Visual Data, etc. (i.e. Face)
   rect(faceSquareX, faceSquareY, faceSquareSide, faceSquareSide);
   ellipse(faceX, faceY, faceDiameter, faceDiameter);
+  //
+}//End setup
+
+void draw() {
+  measlesX = random(width);
+  measlesY = random(height);
+  measlesDiameter = random(height*1/30, height*1/15);
+  //
+  fill(measlesColor);
+  ellipse(measlesX, measlesY, measlesDiameter, measlesDiameter);
+  fill(white);
+  //
   //Left Eye
   ellipse(leftEyeX, leftEyeY, eyeDiameter, eyeDiameter);
   //Right Eye
@@ -29,16 +41,6 @@ void setup() {
   strokeWeight(mouthThick);
   line(mouthX1, mouthY1, mouthX2, mouthY2);
   strokeWeight(1.5);
-}//End setup
-
-void draw() {
-  measlesX = random(width);
-  measlesY = random(height);
-  measlesDiameter = random(height*1/30, height*1/15);
-  //
-  fill(measlesColor);
-  ellipse(measlesX, measlesY, measlesDiameter, measlesDiameter);
-  fill(white);
 }//End draw
 
 void keyPressed() {
