@@ -33,8 +33,8 @@ leaf3X2 = width*17/40;
 leaf3Y2 = height*3/10;
 leaf3X3 = width*23/40;
 leaf3Y3 = leaf3Y2;
-snowX = random(height);
-snowY = random(width);
+snowX = random(width);
+snowY = random(height);
 snowDiameter = random(height*1/50, height*1/25);
 //
 //Tree

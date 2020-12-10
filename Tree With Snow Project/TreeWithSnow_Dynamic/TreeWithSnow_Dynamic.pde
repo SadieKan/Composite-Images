@@ -15,8 +15,8 @@ void setup() {
 }//End setup
 
 void draw() {
-  snowX = random(height);
-  snowY = random(width);
+  snowX = random(width);
+  snowY = random(height);
   snowDiameter = random(height*1/50, height*1/25);
   //
   ellipse(snowX, snowY, snowDiameter, snowDiameter);
