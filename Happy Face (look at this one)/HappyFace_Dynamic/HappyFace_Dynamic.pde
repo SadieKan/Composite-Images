@@ -6,7 +6,7 @@ float noseX1, noseY1, noseX2, noseY2, noseX3, noseY3;
 float mouthX1, mouthY1, mouthX2, mouthY2, mouthThick;
 color red = #F01313, white = #FFFFFF;
 color measlesColor = red; 
-float measlesX, measlesY, measlesDiameter;
+float measlesX, measlesY, measles2X, measles2Y, measles3X, measles3Y, measles4X, measles4Y, measlesDiameter;
 //
 void setup() {
   fullScreen(); 
@@ -17,6 +17,9 @@ void setup() {
 //
 void draw() {
   measles();
+  measles2();
+  measles3();
+  measles4();
   facialFeatures();
 }//End draw
 //
