@@ -10,11 +10,15 @@ float measlesDiameter, measlesX, measlesY, measlesX2, measlesY2, measles2X, meas
 float measles3X, measles3Y, measles3X2, measles3Y2, measles4X, measles4Y, measles4X2, measles4Y2, measles5X, measles5Y;
 float imageX, imageY, imageWidth, imageHeight;
 PImage pic;
+int titleX, titleY, titleWidth, titleHeight;
+String title = "Measles";
+PFont titleFont;
 //
 void setup() {
   fullScreen(); 
   //displayWidth & displayHeight //General Geometry: landscape, potrait, or square
   populatingVariables();
+  title();
   faceShape();
 }//End setup
 //

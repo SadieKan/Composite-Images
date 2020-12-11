@@ -1,4 +1,9 @@
 void populatingVariables() {
+  titleX = width*1/40;
+  titleY = height*1/10;
+  titleWidth = width*3/5;
+  titleHeight = height*1/10;
+  //
   faceSquareX = width*1/2-height*1/2;
   faceSquareY = height*0;
   faceSquareSide = height;
