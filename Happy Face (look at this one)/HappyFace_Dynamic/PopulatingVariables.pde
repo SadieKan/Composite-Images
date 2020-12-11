@@ -12,6 +12,7 @@ void populatingVariables() {
   rightEyeX = width*3/5;
   rightEyeY = leftEyeY;
   eyeDiameter = height/7;
+  eye2Diameter = height/12;
   //
   noseX1 = width/2;
   noseY1 = height*1/2-height*1/15;
@@ -20,9 +21,18 @@ void populatingVariables() {
   noseX3 = width*11/20;
   noseY3 = noseY2;
   //
+  pic = loadImage ("mouth.PNG"); //Dimensions: 3001 Width, 2068 Height
+  float imageWidthRatio = 3001.0/3001.0; 
+  float imageHeightRatio = 2068.0/3001.0;
+  imageX = width*10/30;
+  imageY = height*3/5;
+  imageWidth = (width*imageWidthRatio)/3;
+  imageHeight = (height*imageHeightRatio)/3;
+  /*
   mouthX1 = leftEyeX;
-  mouthY1 = height*3/4;
-  mouthX2 = rightEyeX;
-  mouthY2 = mouthY1;
-  mouthThick = 25;
+   mouthY1 = height*3/4;
+   mouthX2 = rightEyeX;
+   mouthY2 = mouthY1;
+   mouthThick = 25;
+   */
 } //End populatingVariables()
