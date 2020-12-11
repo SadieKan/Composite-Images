@@ -8,5 +8,4 @@ void measles() {
   fill(measlesColor);
   ellipse(measlesX, measlesY, measlesDiameter, measlesDiameter);
   ellipse(measlesX2, measlesY2, measlesDiameter, measlesDiameter);
-  fill(white);
 }
