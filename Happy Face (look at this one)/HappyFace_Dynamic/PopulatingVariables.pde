@@ -1,6 +1,6 @@
 void populatingVariables() {
   titleX = width*1/40;
-  titleY = height*1/10;
+  titleY = height*1/20;
   titleWidth = width*3/5;
   titleHeight = height*1/10;
   //
@@ -40,4 +40,13 @@ void populatingVariables() {
    mouthY2 = mouthY1;
    mouthThick = 25;
    */
+  //
+  buttonX = width*1/40;
+  buttonY = height*1/5;
+  button2X = buttonX;
+  button2Y = height*7/20;
+  button3X = buttonX;
+  button3Y = height*1/2;
+  buttonWidth = height*1/4;
+  buttonHeight = height*1/10;
 } //End populatingVariables()
