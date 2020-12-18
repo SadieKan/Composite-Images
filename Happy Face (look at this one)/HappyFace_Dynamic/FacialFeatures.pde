@@ -22,7 +22,7 @@ void facialFeatures() {
   //strokeCap; //Default ROUND
   /*
   strokeWeight(mouthThick);
-   line(mouthX1, mouthY1, mouthX2, mouthY2);
-   strokeWeight(1.5);
-   */
+  line(mouthX1, mouthY1, mouthX2, mouthY2);
+  strokeWeight(1.5);
+  */
 }
